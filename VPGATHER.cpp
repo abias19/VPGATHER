@@ -135,11 +135,6 @@ VpgExceptionHandler(
 			// skip over it.
 			//
 			VexPrefix = ( PVEX_PREFIX )( ContextRecord->Rip + 1 );
-
-			//
-			// Indicate that the test address will incur a fault when accessing.
-			//
-			TlsAddressNotValid = TRUE;
 		}
 
 		if ( 
@@ -274,3 +269,4 @@ VpgIsAddressAccessible(
 }
 
 #pragma optimize( pop )
+
