@@ -220,6 +220,34 @@ VpgExceptionHandler(
 	return EXCEPTION_CONTINUE_SEARCH;
 }
 
+BOOLEAN
+VpgInitialize( 
+	VOID 
+	)
+{
+	UINT32 Regs[ 4 ]{ };
+
+	//
+	// EAX=7, ECX=0: Extended features
+	//
+	__cpuidex( ( INT32* )Regs, 7, 0 );
+
+	//
+	// Bit 1 of EBX indicates AVX2 support
+	//
+	BOOLEAN VpgSupported = ( Regs[ 1 ] >> 5 ) & 1;
+
+	if ( VpgSupported != FALSE)
+	{
+		//
+		// Register our exception handler 
+		//
+		AddVectoredExceptionHandler( TRUE, VpgExceptionHandler );
+	}
+
+	return VpgSupported;
+}
+
 #pragma optimize( push )
 #pragma optimize( "", off )
 BOOLEAN
@@ -267,6 +295,4 @@ VpgIsAddressAccessible(
 
 	return ( TlsAddressNotValid == FALSE );
 }
-
 #pragma optimize( pop )
-
