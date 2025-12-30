@@ -19,18 +19,14 @@
 #include <intrin.h>
 
 /**
- * @brief A vectored exception handler responsible for handling VPGATHER
- *        related exceptions.
+ * @brief Initialize functionality required to leverage VPGATHER's behavior
  * 
- * @param [in] ExceptionPointers: A pointer to an EXCEPTION_POINTERS structure
- * 
- * @return EXCEPTION_CONTINUE_SEARCH If the exception did not concern VPGATHER
- * @return EXCEPTION_CONTINUE_EXECUTION If the exception concerned VPGATHER and was handled successfully
+ * @return TRUE if initialized successfully
+ * @return FALSE if the running system does not support VPGATHER(AVX2)
  */
-LONG
-WINAPI
-VpgExceptionHandler( 
-	_In_ LPEXCEPTION_POINTERS ExceptionPointers 
+BOOLEAN
+VpgInitialize( 
+	VOID 
 	);
 
 /**
