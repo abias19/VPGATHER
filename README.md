@@ -19,9 +19,12 @@ main(
 	)
 {
 	//
-	// Add a vectored exception handler to handle VPGATHER related exceptions.
+	// Initialize VPGATHER functionality if supported on the running system
 	//
-	AddVectoredExceptionHandler( TRUE, VpgExceptionHandler );
+	if ( VpgInitialize( ) == FALSE )
+    {
+        return 0l;
+    }
 
 	//
 	// This address should never be accessible
